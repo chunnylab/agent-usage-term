@@ -1,0 +1,19 @@
+{
+  "name": "agent-usage-term",
+  "version": "0.1.0",
+  "description": "Compact terminal and tmux status-bar monitor for Z.AI coding plan usage",
+  "type": "module",
+  "bin": {
+    "agent-usage-term": "./bin/agent-usage-term.js"
+  },
+  "scripts": {
+    "start": "node ./bin/agent-usage-term.js",
+    "watch": "node ./bin/agent-usage-term.js watch",
+    "tmux": "node ./bin/agent-usage-term.js tmux",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "MIT"
+}
